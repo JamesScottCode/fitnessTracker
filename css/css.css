@@ -1,0 +1,149 @@
+.ui-bar, .ui-body {
+padding: 0cm 0cm;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0;
+}​
+
+#zero-margin-center {
+   margin: auto 0;
+   padding: 0;
+   text-align: center;
+}
+
+.ui-page { 
+    background:rgba(120, 200, 255, 0.075);
+}
+
+#backButton {
+    background-color: rgba(46, 151, 184, 0.3);
+    border: black solid 1px;
+    height: 100%;
+    padding: 0;
+
+}
+
+#addTitle {
+    margin: auto auto;
+    color: rgb(240,240,240);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#addTitleBack {
+    flex-grow: 1;
+}
+
+#addTitleContainer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgba(46, 151, 184, 0.3);
+    border: black solid 1px;
+    text-align: center;
+    position: relative;
+}
+
+#addTitleEx {
+ 
+    margin: auto auto;
+    color: rgb(240,240,240);
+    position: absolute;
+    width: 70vw;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+}
+
+th, tr {
+border: solid 2px black;
+padding: 10px;
+margin: 0px;
+width: 12vw;
+
+}
+
+#tableRepSet {
+margin: 0 auto;
+padding: 0px;
+height: 10vh;
+}
+
+#tableHeader {
+    font-weight: 1000;
+}
+
+#tableNum {
+    font-weight: 500;
+}
+
+#addSet {
+    touch-action: none;
+    width: 100vw;
+    height: 100px; 
+    position: absolute;
+    bottom: 0;
+    transform: translate(0px,-85px);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#aSet {
+    width: 85%;
+    margin: 0 0;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#DelSet {
+    width: 10%;
+    margin: 0 0;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#listSet {
+    border: black solid 2px;
+    margin: 2px;
+    padding: 0px;
+    
+}
+
+.ui-listview>.ui-li-static {
+    padding: 1px;
+}
+
+.ui-content {
+    max-height: 150px !important;
+    overflow-y: scroll;
+  }
+
+#flex {
+    display: flex;
+    flex-flow: column;
+    height: 60vh;
+}
+
+#flex2 {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+}
+
+#calendarContainer {
+    width: 50vw;
+    height: 50vh;
+}

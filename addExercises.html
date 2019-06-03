@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/css.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/js.js"></script>
+<script src="js/localStorage.js"></script>
+
+</head>
+
+<body onload="updateAddEx();updateSetPage()">
+<div id="addTitleContainer">
+    <img src="images/logoBase.png" width="100%" height="5%">
+    <div id="addTitle">
+        <p id="addTitleP">Standing Dumbbell Press</p>
+    </div>
+</div>
+<a  data-rel="back"> <button class="ui-btn" >Back</button></a>
+
+<!-- sets here-->
+<div style="height: fill;overflow-y:scroll" id="flex">
+    <ul data-role="listview" data-split-icon="delete" data-theme="a" data-split-theme="b" data-inset="true" id="setList">
+    </ul>
+</div>
+
+<!-- Add Set-->
+<form>
+    <ul data-role="listview" data-inset="true" id="addSet">
+        <li>
+            <label for="slider2" >Repetitions:</label>
+            <input class="slider" id="repNum" type="range" name="slider-4" id="slider-4" data-highlight="true" min="0" max="50" value="10" >
+        </li>
+        <li>
+            <label for="slider2" >Weight (kg)</label>
+            <input class="slider" id="kgNum" type="range" name="slider-4" id="slider-4" data-highlight="true" min="0" max="500" value="50" step="1">
+        </li>
+        <li data-icon="check" >
+            <a href="#"  rel="external" onclick="addSet();" id="addSetButton">Add Set</a>
+            <!-- rel="external" -->
+        </li>
+    </ul>
+</form>
+
+</body>
+</html>
